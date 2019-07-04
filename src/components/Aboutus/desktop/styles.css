@@ -1,0 +1,166 @@
+.aboutus > .aboutus-desktop > * {
+	position: relative;
+	width: 100%;
+	letter-spacing: 3px;
+}
+
+.aboutus > .aboutus-desktop .divimg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.8em;
+	line-height: 1.6;
+}
+
+.aboutus > .aboutus-desktop .divimg .top-left-city {
+  position: absolute;
+	text-align: center;
+  top: 150px;
+  left: 26px;
+	font-weight: bolder;
+	font-style: oblique;
+}
+
+.aboutus > .aboutus-desktop .divimg .top-right {
+  position: absolute;
+	text-align: right;
+  top: 150px;
+  right: 26px;
+	font-weight: bolder;
+	font-style: oblique;
+}
+
+.aboutus > .aboutus-desktop .divimg .top-left-plane {
+  position: absolute;
+	text-align: center;
+  top: 150px;
+  left: 80px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-style: oblique;
+}
+
+.aboutus > .aboutus-desktop .divimg > img {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.aboutus > .aboutus-desktop .city > img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.aboutus > .aboutus-desktop .city {
+	color: white;
+}
+
+.aboutus > .aboutus-desktop .plane > img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.aboutus > .aboutus-desktop .founder {
+	display: flex;
+	justify-content: center;
+}
+
+.aboutus > .aboutus-desktop .profile {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	font-size: 1.6em;
+	letter-spacing: 1px;
+}
+
+.aboutus > .aboutus-desktop .founder > img {
+	padding-top: 25px;
+	width: 250px;
+}
+
+.aboutus > .aboutus-desktop .contact-button > a > button {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+}
+
+.aboutus > .aboutus-desktop .contact-button > a > button {
+	position: absolute;
+	top: 30%;
+	left: 75%;
+  background-color: #000000;
+  border: 2px solid #555555;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+	letter-spacing: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+	font-weight: bold;
+}
+@media (max-width: 640px) and (min-width: 300px) {
+	.aboutus > .aboutus-desktop .divimg .top-left-city {
+	    position: absolute;
+	    text-align: center;
+	    top: 20px;
+	    left: 50px;
+	    font-weight: bolder;
+	    font-style: oblique;
+	    font-size: 15px;
+	}
+	.aboutus > .aboutus-desktop .divimg .top-right {
+	    position: absolute;
+	    text-align: right;
+	    top: 110px;
+	    right: 26px;
+	    font-weight: bolder;
+	    font-style: oblique;
+	    font-size: 15px;
+	}
+	.aboutus > .aboutus-desktop .profile {
+	    padding-top: 40px;
+	    padding-bottom: 40px;
+	    text-align: center;
+	    font-size: 1em;
+	    letter-spacing: 1px;
+	}
+	.aboutus > .aboutus-desktop .divimg .top-left-plane {
+	    position: absolute;
+	    text-align: center;
+	    top: 35px;
+	    left: 6px;
+	    font-weight: bold;
+	    letter-spacing: 1px;
+	    font-style: oblique;
+	    font-size: 12px;
+	}
+	.aboutus > .aboutus-desktop .founder > img {
+	    padding-top: 25px;
+	    width: 231px;
+	    height: 273px;
+	}
+	.aboutus > .aboutus-desktop .contact-button > a > button {
+	    position: absolute;
+	    top: 34%;
+	    left: 67%;
+	    background-color: #000000;
+	    border: 2px solid #555555;
+	    color: white;
+	    padding: 15px 32px;
+	    text-align: center;
+	    letter-spacing: 5px;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 8px;
+	    font-weight: bold;
+	}
+}
+h2 {
+	font-weight: bolder;
+}
+
+h2.head {
+	font-size: 2.1em;
+}

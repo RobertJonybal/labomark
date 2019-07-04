@@ -1,0 +1,60 @@
+.tophome {
+	height:80px;
+	width: 100%;
+}
+
+header.top-menu-desktop {
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 2px solid white;
+	overflow-x: hidden;
+}
+header.top-menu-desktop > * {
+	display: inline-block;
+	vertical-align: middle;
+	justify-content: center;
+	text-decoration: none;
+}
+header.top-menu-desktop > *:nth-child(1) {
+	width: 20%;
+}
+header.top-menu-desktop > *:nth-child(2) {
+	width: 79%;
+}
+header.top-menu-desktop > .logo img {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+header.top-menu-desktop > nav > ul {
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+header.top-menu-desktop > nav > ul > li {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 40px;
+	font-size: 1.3em;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+header.top-menu-desktop > nav > ul > li.social {
+	float: right;
+}
+header.top-menu-desktop > nav > ul > li > a.active {
+	font-weight: bold;
+}
+header.top-menu-desktop .media-link {
+	margin-right: 8px;
+}
+header.top-menu-desktop .media-link img {
+	border-radius: 8px;
+	width: 35px;
+	height: 35px;
+}

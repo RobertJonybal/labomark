@@ -1,0 +1,472 @@
+.products > .products-desktop > * {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 1.5em;
+}
+
+.products > .products-desktop > .switch-products {
+	display: flex;
+	flex-direction: row;
+	flex: 2;
+	text-align: center;
+}
+
+.products > .products-desktop > .switch-products > * {
+	display: flex;
+	flex: 1;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+	letter-spacing: 3px;
+	border-bottom: 3px solid gray;
+}
+
+.products > .products-desktop > .switch-products > div:nth-child(1) {
+	background-color: #051e76;
+}
+
+.products > .products-desktop > .switch-products > div:nth-child(2) {
+	background-color: #3f8d98;
+}
+
+.products > .products-desktop > .switch-products > .switch > * {
+	width: 100%;
+}
+
+.products > .products-desktop > .uf > .info > .products-preview {
+	display: flex;
+	flex-direction: row;
+}
+
+.products > .products-desktop > .uf > .info > .products-preview > div:nth-child(1) {
+	color: black;
+	width: 50vw;
+	height: 50vw;
+	background-color: white;
+	display: flex;
+	margin: 10px 5px 10px 10px;
+	letter-spacing: 3px;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+.products > .products-desktop > .uf > .info > .products-preview > div:nth-child(2) {
+	color: black;
+	width: 50vw;
+	height: 50vw;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 10px 10px 5px;
+}
+
+.products > .products-desktop > .uf > .info {
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+.products > .products-desktop > .uf > .product {
+	position: relative;
+  text-align: center;
+  color: black;
+	font-size: 1.3em;
+	letter-spacing: 3px;
+}
+
+.products > .products-desktop > .oxy > .product {
+	position: relative;
+  text-align: center;
+  color: black;
+	font-size: 1.3em;
+	letter-spacing: 3px;
+}
+
+.component-text {
+	position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+	letter-spacing: 5px;
+	font-weight: bolder;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.component-text h3 {
+	font-size: 3.2em;
+}
+.products > .products-desktop > .uf > .info > img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+}
+
+.products > .products-desktop > .oxy > .info {
+	justify-content: center;
+	display: flex;
+	vertical-align: top;
+}
+
+.products > .products-desktop > .oxy > .info > figure {
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 25px;
+		padding-top: 15px;
+		text-align: center;
+}
+
+.products > .products-desktop > .oxy > .info > figure > img {
+	padding-bottom: 20px;
+}
+
+.products > .products-desktop > .oxy > .product > .button {
+	background-color: teal;
+}
+
+.components {
+    width: 50%;
+    height: 50%;
+		position: relative;
+    float: left;
+}
+
+.components:hover .overlay {
+  opacity: 1;
+}
+
+.cmpimg {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #183395;
+}
+
+.overlaytext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#rectangle{
+    width:100%;
+    height:60px;
+    background:teal;
+		padding-bottom: 30px;
+}
+
+figcaption {
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.button {
+	background-color: #051e76;
+	color: #ffffff;
+	color: white;
+  padding: 15px 32px;
+	border-radius: 4px;
+  text-align: center;
+	letter-spacing: 3px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media (max-width: 640px) and (min-width: 300px) {
+	.switch {
+	    display: block !important;
+	    width: 100% !important;
+	    position: relative !important;
+	    border-color: transparent !important;
+	}
+	.switch .txt {
+	    text-align: center !important;
+	    font-size: 10px;
+	    letter-spacing: 1px;
+	}
+	.switch-products {
+	    display: block !important;
+	}
+	.product h2 {
+		font-size: 30px;
+	}
+	.product .desc {
+	    width: 88%;
+	    font-size: 22px;
+	    display: table;
+	    margin: 10px auto;
+	}
+	.products-preview {
+	    display: block !important;
+	    width: 95% !important;
+	}
+	.products > .products-desktop > .uf > .info > .products-preview > div img {
+	    width: 100% !important;
+	}
+	.products > .products-desktop > .uf > .info > .products-preview > div {
+	    display: block !important;
+	    width: 95% !important;
+	    text-align: center !important;
+	    position: relative !important;
+	    padding: 10px !important;
+	    height: 100% !important;
+	    letter-spacing: 0px !important;
+	    font-size: 18px !important;
+	}
+	.product .desc {
+	    width: 88%;
+	    font-size: 22px;
+	    display: table;
+	    margin: 10px auto;
+	}
+	.component-text h3 {
+	    margin: 10px 0 !important;
+	}
+	.products > .products-desktop > .uf > .info {
+	    height: 100% !important;
+	    display: block !important;
+	    width: 100%;
+	}
+	.component-text {
+	    letter-spacing: 0px !important;
+	    white-space: normal !important;
+	    font-size: 10px !important;
+	    width: 100% !important;
+	    display: table !important;
+	}
+	.products > .products-desktop > .oxy > .info {
+	    -ms-flex-pack: center;
+	    justify-content: center;
+	    display: block;
+	    vertical-align: top;
+	}
+	.products > .products-desktop > .oxy > .info > figure {
+	    padding-left: 50px;
+	    padding-right: 50px;
+	    padding-bottom: 25px;
+	    padding-top: 15px;
+	    text-align: center;
+	}
+	.products > .products-desktop > .oxy > .info > figure > img {
+	    width: 200px;
+	}
+}
+@media (max-width: 480px) and (min-width: 300px) {
+	.switch-products {
+	    display: block !important;
+	}
+	.switch .txt {
+	    text-align: center !important;
+	    font-size: 10px;
+	    letter-spacing: 1px;
+	}
+	.switch {
+	    display: block !important;
+	    width: 100% !important;
+	    position: relative !important;
+	    border-color: transparent !important;
+	}
+	.product .desc {
+	    width: 88%;
+	    font-size: 13px;
+	    display: table;
+	    margin: 10px auto;
+	}
+	.product h2{
+		font-size: 16px;
+	}
+	.products-preview {
+	    display: block !important;
+	    width: 95% !important;
+	}
+	.products > .products-desktop > .uf > .info > .products-preview > div img {
+	    width: 100% !important;
+	}
+	.products > .products-desktop > .uf > .info > .products-preview > div {
+	    display: block !important;
+	    width: 95% !important;
+	    text-align: center !important;
+	    position: relative !important;
+	    padding: 10px !important;
+	    height: 100% !important;
+	    letter-spacing: 0px !important;
+	    font-size: 18px !important;
+	}
+
+	.component-text h3 {
+		margin: 10px 0 !important;
+		font-size: 16px;
+	}
+	.products > .products-desktop > .uf > .info {
+	    height: 100% !important;
+	    display: block !important;
+	    width: 100%;
+	}
+	.component-text {
+		letter-spacing: 0px !important;
+		white-space: normal !important;
+		font-size: 10px !important;
+		width: 100% !important;
+		display: table !important;
+	}
+	.overlaytext p {
+		font-size: 12px!important;
+	}
+	.overlaytext h3{
+		font-size: 16px!important;
+	}
+	.overlaytext .button {
+		font-size: 14px!important;
+	}
+	.overlaytext {
+	    width: 100%!important;
+	}
+}
+@media (max-width: 800px) and (min-width: 600px) {
+	.switch {
+	    display: block !important;
+	    width: 100% !important;
+	    position: relative !important;
+	    border-color: transparent !important;
+	}
+	.switch .txt {
+	    text-align: center !important;
+	    font-size: 10px;
+	    letter-spacing: 1px;
+	}
+	.switch-products {
+	    display: block !important;
+	}
+	.product h2 {
+		font-size: 30px;
+	}
+	.product .desc {
+	    width: 88%;
+	    font-size: 22px;
+	    display: table;
+	    margin: 10px auto;
+	}
+	.products-preview {
+	    display: block !important;
+	    width: 95% !important;
+	}
+	.products > .products-desktop > .uf > .info > .products-preview > div img {
+	    width: 100% !important;
+	}
+	.products > .products-desktop > .uf > .info > .products-preview > div {
+	    display: block !important;
+	    width: 95% !important;
+	    text-align: center !important;
+	    position: relative !important;
+	    padding: 10px !important;
+	    height: 100% !important;
+	    letter-spacing: 0px !important;
+	    font-size: 18px !important;
+	}
+	.product .desc {
+	    width: 88%;
+	    font-size: 13px;
+	    display: table;
+	    margin: 10px auto;
+	}
+	.component-text h3 {
+	    margin: 10px 0 !important;
+	}
+	.products > .products-desktop > .uf > .info {
+	    height: 100% !important;
+	    display: block !important;
+	    width: 100%;
+	}
+	.component-text {
+	    letter-spacing: 0px !important;
+	    white-space: normal !important;
+	    font-size: 10px !important;
+	    width: 100% !important;
+	    display: table !important;
+	}
+}
+@media (max-width: 1024px) and (min-width: 900px) {
+	.switch {
+	    display: block !important;
+	    width: 100% !important;
+	    position: relative !important;
+	    border-color: transparent !important;
+	}
+	.switch .txt {
+	    text-align: center !important;
+	    font-size: 30px;
+	    letter-spacing: 1px;
+	}
+	.switch-products {
+	    display: block !important;
+	}
+	.product h2 {
+		font-size: 50px;
+	}
+	.product .desc {
+	    width: 88%;
+	    font-size: 32px;
+	    display: table;
+	    margin: 10px auto;
+	}
+	.products-preview {
+	    display: block !important;
+	    width: 95% !important;
+	}
+	.products > .products-desktop > .uf > .info > .products-preview > div img {
+	    width: 100% !important;
+	}
+	.products > .products-desktop > .uf > .info > .products-preview > div {
+	    display: block !important;
+	    width: 95% !important;
+	    text-align: center !important;
+	    position: relative !important;
+	    padding: 10px !important;
+	    height: 100% !important;
+	    letter-spacing: 0px !important;
+	    font-size: 28px !important;
+	}
+	.product .desc {
+	    width: 88%;
+	    font-size: 32px;
+	    display: table;
+	    margin: 10px auto;
+	}
+	.component-text h3 {
+	    margin: 10px 0 !important;
+	}
+	.products > .products-desktop > .uf > .info {
+	    height: 100% !important;
+	    display: block !important;
+	    width: 100%;
+	}
+	.component-text {
+	    letter-spacing: 0px !important;
+	    white-space: normal !important;
+	    font-size: 25px !important;
+	    width: 100% !important;
+	    display: table !important;
+	}
+}
